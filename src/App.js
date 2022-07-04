@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -18,6 +20,23 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+      <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous"
+/>
+
+      <Card style={{ width: '18rem' }}>
+  <ListGroup variant="flush">
+    <ListGroup.Item>Cras justo odio</ListGroup.Item>
+    <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+    <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+  </ListGroup>
+</Card>
+
+      </body>
     </div>
   );
 }
